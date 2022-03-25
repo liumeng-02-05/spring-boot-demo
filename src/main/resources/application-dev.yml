@@ -1,0 +1,19 @@
+server:
+    port: 8081
+
+spring:
+    datasource:
+        username: root
+        password: Liumeng199725
+        url: jdbc:mysql://localhost:3306/book
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+    mapper-locations: classpath:mapper/*Mapper.xml
+    type-aliases-package: com.anran.example.model
+
+#logging:
+##    file: /usr/log/example.log
+#    level:
+#        root: INFO
+#        com.anran.projectmanage.mapper: DEBUG
